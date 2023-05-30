@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome/release/v5.9.0/css/all/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body></body>
+</html>
+
+<section class="draggable-elements">
+  <!-- <i class="fas fa-horse draggable" draggable="true" style="color: #333333;" id="horse"></i>
+    <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
+    <i class="fas fa-spider draggable" draggable="true" style="color: #ff99cc;" id="spider"></i> -->
+</section>
+<section class="droppable-elements">
+  <div class="droppable" data-draggable-id="frog">
+    <i class="draggable" draggable="true" style="color: #4bc0c0;">
+      16
+    </i>
+  </div>
+  <div class="droppable" data-draggable-id="dove">
+    <i class="draggable" draggable="true" style="color: #9966ff;">
+      46
+    </i>
+  </div>
+  <div class="droppable" data-draggable-id="cat">
+    <i class="draggable" draggable="true" style="color: #ffce56;">
+      2
+    </i>
+  </div>
+  <div class="droppable" data-draggable-id="fish">
+    <i class="draggable" draggable="true" style="color: #36a2eb;">
+      22
+    </i>
+  </div>
+  <div class="droppable" data-draggable-id="frog">
+    <i class="draggable" draggable="true" style="color: #36a2eb;">
+      17
+    </i>
+  </div>
+</section>
+<div class="result">
+  <span class="checktext">
+    Drag Boxes Below in Ascending Order -
+  </span>
+</div>
+<section class="droppable-elements">
+  <div class="droppable num1 resultant"></div>
+  <div class="droppable num2 resultant"></div>
+  <div class="droppable num3 resultant"></div>
+  <div class="droppable num4 resultant"></div>
+  <div class="droppable num5 resultant"></div>
+</section>
+<section>
+  <div class="result">
+    <button class="button check" type="button" onclick="submitPressed()">
+      Check Answer
+    </button>
+  </div>
+  <div class="result">
+    <span class="answer">Correct Answer</span>
+  </div>
+  <div class="result">
+    <button class="button restart" onClick="window.location.reload();">
+      Refresh Page
+    </button>
+  </div>
+</section>
